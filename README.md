@@ -2,6 +2,9 @@
 Iterative Closest Point algorothm implemented in Lua.
 This program is an experiment of applying ICP algorithm for aligning stars in astronomical images.
 
+# Source doc
+https://alekmarinov.github.io/luaicp/
+
 # Related scripts
 
 ```sim-no-weights.```
