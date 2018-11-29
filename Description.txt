@@ -1,0 +1,4 @@
+This program implements Iterative Closest Point algorithm for alignment of two point clouds. It can be used to align astronomical star sets - the one get from standard astronomical catalog and one from arbitrary source, for example stars extracted from astronomical image.
+Read Readme.txt for usage guidlines.
+
+The program is supported by the project "Astroinformatics"  with Bulgarian National Science Foundation, DO-02-275

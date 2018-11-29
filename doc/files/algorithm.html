@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../luadoc.css" type="text/css" />
+	<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/-->
+</head>
+
+<body>
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+<div id="main">
+
+<div id="navigation">
+
+
+<h1>LuaDoc</h1>
+<ul>
+	
+	<li><a href="../index.html">Index</a></li>
+	
+</ul>
+
+
+<!-- Module list -->
+
+<h1>Modules</h1>
+<ul>
+
+	<li>
+		<a href="../modules/lrun.ai.icp.algorithm.html">lrun.ai.icp.algorithm</a>
+	</li>
+
+	<li>
+		<a href="../modules/lrun.ai.icp.distance.html">lrun.ai.icp.distance</a>
+	</li>
+
+	<li>
+		<a href="../modules/lrun.ai.icp.map.html">lrun.ai.icp.map</a>
+	</li>
+
+	<li>
+		<a href="../modules/lrun.ai.icp.transform.html">lrun.ai.icp.transform</a>
+	</li>
+
+</ul>
+
+
+
+<!-- File list -->
+
+<h1>Files</h1>
+<ul>
+
+	<li><strong>algorithm.lua</strong></li>
+	
+	<li>
+		<a href="../files/distance.html">distance.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/map.html">map.lua</a>
+	</li>
+
+	<li>
+		<a href="../files/transform.html">transform.lua</a>
+	</li>
+
+</ul>
+
+
+
+
+
+
+</div> <!-- id="navigation" -->
+
+<div id="content">
+
+<h1>File <code>algorithm.lua</code></h1>
+
+
+<p>Implements the Iterative Closest Point algorithm</p>
+
+
+<p><b>Author:</b>
+<table class="authors_list">
+
+	<tr><td class="name">Alexander Marinov (amarinov@iinf.bas.bg) Nadezhda Zlateva  (nzlateva@iinf.bas.bg) Delian Marinov </td></tr>
+
+</table>
+</p>
+
+
+<p>Copyright &copy;(C) 2003-2010,  BAS-IIT</p>
+
+
+
+
+<h2>Functions</h2>
+<table class="function_list">
+
+	<tr>
+	<td class="name" nowrap><a href="#iterator">iterator</a>&nbsp;(A, B, map, distance, wA, wB)</td>
+	<td class="summary">Approaches set A to set B by iterative translations and rotations <br> </td>
+	</tr>
+
+</table>
+
+
+
+
+
+
+<br/>
+<br/>
+
+
+
+
+<h2><a name="functions"></a>Functions</h2>
+<dl class="function">
+
+
+
+<dt><a name="iterator"></a><strong>iterator</strong>&nbsp;(A, B, map, distance, wA, wB)</dt>
+<dd>
+Approaches set A to set B by iterative translations and rotations <br>
+
+
+<h3>Parameters</h3>
+<ul>
+	
+	<li>
+	  A: is the set to be moved
+	</li>
+	
+	<li>
+	  B: is the target set for A movements
+	</li>
+	
+	<li>
+	  map: is a user defined function which returns the subset of B - the closest points to A.
+	</li>
+	
+	<li>
+	  distance: is a user defined function which returns the distance estimation for 2 arbitrary points
+	</li>
+	
+	<li>
+	  wA: is optional point weights if set A
+	</li>
+	
+	<li>
+	  wB: is optional point weights if set B <br>
+	</li>
+	
+</ul>
+
+
+
+
+<h3>Usage:</h3>
+for A, Bs, R, t, wBs in algorithm(A, B, icp.map.one2many, icp.distance.euclid) do ... end <br>
+
+
+
+<h3>Return value:</h3>
+iterator function
+
+
+
+</dd>
+
+
+</dl>
+
+
+
+
+
+
+
+</div> <!-- id="content" -->
+
+</div> <!-- id="main" -->
+
+<div id="about">
+	<p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a></p>
+</div> <!-- id="about" -->
+
+</div> <!-- id="container" -->	
+</body>
+</html>
