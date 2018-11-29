@@ -38,3 +38,7 @@ Pressing 'h' from icpsim in interactive mode will list various control keys
 
 ### Even more help:
 Read program code. It is pure Lua text.
+
+# Demo
+
+![ICP in action](docs/icp.gif?raw=true "ICP demo")
