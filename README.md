@@ -53,4 +53,5 @@ Read program code. It is pure Lua text.
 
 # Acknowledgment
 The program is supported by the project "Astroinformatics" with Bulgarian National Science Foundation, DO-02-275
+
 Institute of Information Technologies - Bulgarian Academy of Sciences, http://www.iit.bas.bg/PR_en.html
