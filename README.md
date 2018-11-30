@@ -7,30 +7,38 @@ https://alekmarinov.github.io/luaicp/
 
 # Related scripts
 
-```sim-no-weights.```
+```sim-no-weights.cmd```
+
 Simulation with random points without weights
 
 ```sim-weights.cmd```
+
 Simulation with random points with assigned weights
 
 ```ROZ200_001906.cmd```
+
 Simulation with 100 stars extracted from ROZ200_001906 plate
 
 ```icpsim.cmd```
+
 Runner script for the ICP simulation program
 
 ```icp.cmd```
+
 Runner script of the ICP program
 
 # Applications
 
 ```icpsim.cmd -i```
+
 Runs the simulation program in interactive mode with 100 random points
 
 ```icp.cmd data\ROZ200_001906_normals.txt data\ROZ200_001906_noised.txt```
+
 Aligns ROZ200_001906_noised and ROZ200_001906_normals sets
 
 ```icpsim.cmd --help```
+
 Show program usage options
 
 ## More help:
