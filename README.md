@@ -1,6 +1,6 @@
 # LuaICP
 Iterative Closest Point algorothm implemented in Lua.
-This program is an experiment of applying ICP algorithm for aligning stars in astronomical images.
+This program implements Iterative Closest Point algorithm for alignment of two point clouds. It can be used to align astronomical star sets - the one get from standard astronomical catalog and one from arbitrary source, for example stars extracted from astronomical image.
 
 # Source doc
 https://alekmarinov.github.io/luaicp/
@@ -50,3 +50,7 @@ Read program code. It is pure Lua text.
 # Demo
 
 ![ICP in action](docs/icp.gif?raw=true "ICP demo")
+
+# Acknowledgment
+The program is supported by the project "Astroinformatics" with Bulgarian National Science Foundation, DO-02-275
+Institute of Information Technologies - Bulgarian Academy of Sciences, http://www.iit.bas.bg/PR_en.html
